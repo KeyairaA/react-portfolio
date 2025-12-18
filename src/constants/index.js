@@ -47,6 +47,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
+  address: "Bolingbrook, IL",
   phoneNo: "+1 630 835 2041 ",
   email: "keyaira.austin@gmail.com",
 };
