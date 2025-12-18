@@ -1,25 +1,25 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am currently an IT specialist aiming to transition into a software engineering role. With three years of hands-on experience as an IT specialist, I\’ve cultivated a deep understanding of technology and problem-solving. Now, I\’m channeling that expertise into my next exciting challenge: becoming a software engineer. Through rigorous self-improvement and a passion for innovation, I’m ready to leverage my IT background to create impactful software solutions.`;
+export const HERO_CONTENT = `I am currently an sales specialist aiming to transition into a software engineering role. With three years of hands-on experience as an IT specialist, I\’ve cultivated a deep understanding of technology and problem-solving. Now, I\’m channeling that expertise into my next exciting challenge: becoming a software engineer. Through rigorous self-improvement and a passion for innovation, I’m ready to leverage my IT background to create impactful software solutions.`;
 
-export const ABOUT_TEXT = `I am an IT specialist aiming to transition into a software engineering role with three years of experience in the field. I graduated in 2021 with a Bachelor's degree in Mathematics and Computer Science, which provided me with a strong foundation in analytical thinking, problem-solving, and technical skills.`;
+export const ABOUT_TEXT = `I am an sales specialist aiming to transition into a software engineering role with three years of experience in the field. I graduated in 2021 with a Bachelor's degree in Mathematics and Computer Science, which provided me with a strong foundation in analytical thinking, problem-solving, and technical skills.`;
 
 export const EXPERIENCES = [
   {
     year: "2021 - 2025",
     role: "Technology Specialist I",
-    company: "Gibsons Restuarant Group",
+    company: "Gibsons Restaurant Group",
     description: `I was a level 1 IT specialist that provided comprehensive IT help desk support, troubleshooting and resolving technical issues efficiently to the users within the organization.`,
     technologies: ["Active Directory", "Google Workspace", "Google Cloud"],
   },
   {
     year: "2025 - Present",
-    role: "Specialist",
+    role: "Sales Specialist",
     company: "Apple",
     description: `I am a customer focused Sales Specialist that delivers exceptional retail experiences in a fast paced environment using my extensive knowledge of Apple's products and ecosystem.`,
+    technologies:[]
   },
   // {
   //   year: "2021 - 2022",
@@ -69,7 +69,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+  address: "Bolingbrook, IL ",
   phoneNo: "+1 630 835 2041 ",
   email: "keyaira.austin@gmail.com",
 };
