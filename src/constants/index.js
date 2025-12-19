@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 
-export const HERO_CONTENT = `I am currently an sales specialist aiming to transition into a software engineering role. With three years of hands-on experience as an IT specialist, I\’ve cultivated a deep understanding of technology and problem-solving. Now, I\’m channeling that expertise into my next exciting challenge: becoming a software engineer. Through rigorous self-improvement and a passion for innovation, I’m ready to leverage my IT background to create impactful software solutions.`;
+export const HERO_CONTENT = `I am currently an sales specialist aiming to transition into a software engineering role. I currently have three years of hands-on experience as an IT specialist, I\’ve cultivated a deep understanding of technology and problem-solving. Now, I\’m channeling that expertise into my next exciting challenge: becoming a software engineer. Through rigorous self-improvement and a passion for innovation, I’m ready to leverage my IT background to create impactful software solutions.`;
 
 export const ABOUT_TEXT = `I am an sales specialist aiming to transition into a software engineering role with three years of experience in the field. I graduated in 2021 with a Bachelor's degree in Mathematics and Computer Science, which provided me with a strong foundation in analytical thinking, problem-solving, and technical skills.`;
 
