@@ -8,33 +8,19 @@ export const ABOUT_TEXT = `I am an sales specialist aiming to transition into a 
 
 export const EXPERIENCES = [
   {
-    year: "2021 - 2025",
-    role: "Technology Specialist I",
-    company: "Gibsons Restaurant Group",
-    description: `I was a level 1 IT specialist that provided comprehensive IT help desk support, troubleshooting and resolving technical issues efficiently to the users within the organization.`,
-    technologies: ["Active Directory", "Google Workspace", "Google Cloud"],
-  },
-  {
     year: "2025 - Present",
     role: "Sales Specialist",
     company: "Apple",
     description: `I am a customer focused Sales Specialist that delivers exceptional retail experiences in a fast paced environment using my extensive knowledge of Apple's products and ecosystem.`,
     technologies:[]
   },
-  // {
-  //   year: "2021 - 2022",
-  //   role: "Full Stack Developer",
-  //   company: "Facebook",
-  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  // },
-  // {
-  //   year: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "Paypal",
-  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  // },
+  {
+    year: "2021 - 2025",
+    role: "Technology Specialist I",
+    company: "Gibsons Restaurant Group",
+    description: `I was a level 1 IT specialist that provided comprehensive IT help desk support, troubleshooting and resolving technical issues efficiently to the users within the organization.`,
+    technologies: ["Active Directory", "Google Workspace", "Google Cloud"],
+  },
 ];
 
 export const PROJECTS = [
