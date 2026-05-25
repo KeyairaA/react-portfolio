@@ -8,7 +8,7 @@ export const ABOUT_TEXT = `I am an sales specialist aiming to transition into a 
 
 export const EXPERIENCES = [
   {
-    year: "2025 - Present",
+    year: "2025 - 2026",
     role: "Sales Specialist",
     company: "Apple",
     description: `I am a customer focused Sales Specialist that delivers exceptional retail experiences in a fast paced environment using my extensive knowledge of Apple's products and ecosystem.`,
@@ -25,17 +25,10 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "File Sorter",
+    title: "Court Vision",
     image: project1,
     description:
-      "A python script that automatically sorts files based on their type.",
-    technologies: ["Python"],
-  },
-  {
-    title: "WNBA Stats Analyzer",
-    image: project2,
-    description:
-      "A python script that scrapes data from wnba.com/stats and analyses it.",
+      "Interactive WNBA analytics dashboard built with Python, Streamlit, and the nba_api. Featuring player comparison, career arc tracking, leaderboards, and advanced efficiency metrics across 7 seasons of live data.",
     technologies: ["Python"],
   },
   {
