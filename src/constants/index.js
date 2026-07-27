@@ -1,54 +1,73 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+export const HERO_EYEBROW = "Software Engineer";
 
-export const HERO_CONTENT = `I am currently an sales specialist aiming to transition into a software engineering role. I currently have three years of hands-on experience as an IT specialist, I\’ve cultivated a deep understanding of technology and problem-solving. Now, I\’m channeling that expertise into my next exciting challenge: becoming a software engineer. Through rigorous self-improvement and a passion for innovation, I’m ready to leverage my IT background to create impactful software solutions.`;
+export const ABOUT_TEXT = `I'm a software engineer in training, transitioning out of three years as a sales and IT specialist. I graduated in 2021 with a Bachelor's degree in Mathematics and Computer Science from the University of Illinois Chicago, which gave me a strong foundation in analytical thinking, problem-solving, and technical fundamentals. I've spent years solving problems for people directly, and I'm now channeling that experience into building full-stack software.`;
 
-export const ABOUT_TEXT = `I am an sales specialist aiming to transition into a software engineering role with three years of experience in the field. I graduated in 2021 with a Bachelor's degree in Mathematics and Computer Science, which provided me with a strong foundation in analytical thinking, problem-solving, and technical skills.`;
+export const TECHNOLOGIES = [
+  "React",
+  "JavaScript",
+  "Node.js",
+  "Python",
+  "SQL",
+  "PostgreSQL",
+  "Express",
+  "HTML5",
+  "CSS3",
+  "Tailwind CSS",
+  "Git",
+  "REST APIs",
+  "API Integration",
+  "Authentication",
+  "Relational Databases",
+  "C++",
+];
 
 export const EXPERIENCES = [
   {
-    year: "2025 - 2026",
-    role: "Sales Specialist",
+    year: "2025 – 2026",
+    role: "Specialist",
     company: "Apple",
-    description: `I am a customer focused Sales Specialist that delivers exceptional retail experiences in a fast paced environment using my extensive knowledge of Apple's products and ecosystem.`,
-    technologies:[]
+    description:
+      "Customer-focused Specialist delivering exceptional retail experiences in a fast-paced environment, using extensive knowledge of Apple's products and ecosystem.",
+    technologies: [],
   },
   {
-    year: "2021 - 2025",
+    year: "2021 – 2025",
     role: "Technology Specialist I",
     company: "Gibsons Restaurant Group",
-    description: `I was a level 1 IT specialist that provided comprehensive IT help desk support, troubleshooting and resolving technical issues efficiently to the users within the organization.`,
+    description:
+      "Level-1 IT specialist providing comprehensive help desk support, troubleshooting and resolving technical issues efficiently for users across the organization.",
     technologies: ["Active Directory", "Google Workspace", "Google Cloud"],
   },
 ];
 
+export const EDUCATION = {
+  year: "2021",
+  degree: "B.S. Mathematics & Computer Science",
+  school: "University of Illinois Chicago",
+};
+
 export const PROJECTS = [
   {
-    title: "Court Vision",
-    image: project1,
+    kicker: "In progress",
+    title: "Unrivaled Tracker",
     description:
-      "Interactive WNBA analytics dashboard built with Python, Streamlit, and the nba_api. Featuring player comparison, career arc tracking, leaderboards, and advanced efficiency metrics across 7 seasons of live data.",
-    technologies: ["Python"],
+      "A full-stack app for the Unrivaled women's basketball league, covering teams, players, and schedules with real-time and historical game data via third-party sports APIs. RESTful endpoints handle teams, players, schedules, and user favorites, with PostgreSQL persisting user preferences and a responsive React and Tailwind UI supporting dynamic schedule filtering and sorting.",
+    technologies: ["React", "Node.js", "PostgreSQL", "Tailwind"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    kicker: "Shipped",
+    title: "Court Vision",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "Tailwind CSS", "React"],
+      "Interactive WNBA analytics dashboard built with Python, Streamlit, and the nba_api. Player comparison, career arc tracking, leaderboards, and advanced efficiency metrics across 7 seasons of live data.",
+    technologies: ["Python", "Pandas", "Streamlit", "Plotly"],
   },
-  // {
-  //   title: "Blogging Platform",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  // },
 ];
 
 export const CONTACT = {
-  address: "Bolingbrook, IL ",
-  phoneNo: "+1 630 835 2041 ",
-  email: "keyaira.austin@gmail.com",
+  email: "keyaira118@hotmail.com",
+};
+
+export const SOCIALS = {
+  linkedin: "www.linkedin.com/in/keyaira-austin-4367691a3/",
+  github: "https://github.com/KeyairaA",
 };

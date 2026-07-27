@@ -1,16 +1,19 @@
-import logo from "../assets/KeyairaAustinLogo.png";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { SOCIALS } from "../constants";
 
 const Navbar = () => {
-  return <nav className="mb-20 flex items-center justify-between py-6"><div className="flex flex-shrink-0 items-center">
-    <img className="mx-2 w-10" src={logo} alt="logo"/>
-    </div>
-    <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-    </div>
+  return (
+    <nav className="nav site-nav">
+      <a href="#" className="nav-brand">KA</a>
+      <div className="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href={SOCIALS.linkedin} className="nav-social">LinkedIn</a>
+        <a href={SOCIALS.github}>GitHub</a>
+      </div>
     </nav>
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
