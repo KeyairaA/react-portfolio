@@ -68,6 +68,6 @@ export const CONTACT = {
 };
 
 export const SOCIALS = {
-  linkedin: "www.linkedin.com/in/keyaira-austin-4367691a3/",
+  linkedin: "https://linkedin.com/in/keyaira-austin-4367691a3/",
   github: "https://github.com/KeyairaA",
 };
